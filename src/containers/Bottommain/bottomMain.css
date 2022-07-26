@@ -1,0 +1,61 @@
+.portfolio {
+    width: 310px;
+    margin-top: 20px;
+    
+    
+}
+
+.bottom-main-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.166666507720947px;   
+}
+
+.info-bar-bottom {
+    margin: 20px;
+}
+
+.info-bar-bottom {
+    margin-top: 50px;
+}
+
+.bar-info {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 70px;
+  height: 560px;
+  
+  color: #b5b2b2;
+ 
+}
+
+h2 {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+ 
+}
+
+.bottom-p {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+
+}
+
+

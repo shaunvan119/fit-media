@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+  
+}
+
+.contact-button {
+  height: 40px;
+  width: 158px;
+  border-radius: 0px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #fa7064;;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+/*tablet MQ*/
+
+@media  (max-width: 1143px) {
+  .graphic {
+    max-width: 600px;
+  }
+
+
+  .image-main {
+    max-width: 550px;
+  }
+
+  .bar-info {
+    padding-bottom: 150px;
+  }
+
+  
+}
+
+@media  (max-width: 969px) {
+  .image-main {
+    max-width: 450px;
+  }
+
+}
+
+@media  (max-width: 930px) {
+  .graphic {
+    max-width: 600px;
+  }
+
+
+  .image-main {
+    max-width: 250px;
+  }
+
+  .bar-info {
+    padding-bottom: 150px;
+  }
+
+  .price-button-basic, .button-pro, .price-button-business {
+    max-width: 200px;
+  }
+
+  
+}
+
+
+/*mobile MQ*/
+@media  (max-width: 550px) {
+
+/*MQ header and top main*/
+
+.logo {
+   height: 200px;
+   margin-left: -40px;
+   margin-right: -40px;
+   
+}
+
+.image-main {
+    max-width: 100%;
+  }
+
+.graphic {
+  display: none;
+}
+
+.top-main-container-one {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.data-list, .lead-funnel {
+  display: none;
+  
+}
+
+/*MQ bottom section*/
+
+.bottom-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.website-rep, .conversion, .hosting, .design, .lead-auto  {
+  display: none;
+}
+
+
+.clock-heading {
+  font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.166666507720947px;
+    margin-top: 0px; 
+    padding-top: 50px;
+}
+
+.info-bar-lead {
+  margin-right: 100px;
+  
+}
+
+
+.clock {
+  text-align: start;
+}
+
+.price-box-pro, .price-box {
+  display: none;
+}
+
+
+.price-box-pro-mobile {
+  height: 565px;
+  width: 350px;
+  background-color: #000000;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.banner-footer, .top-left {
+  display: none;
+
+}
+
+.Bottom-footer {
+  height: 100vh;
+  padding-bottom: 40px;
+}
+
+.input-contact {
+
+  max-width: 320px;
+}
+
+ label {
+   text-align: center;
+   margin-left: 170px;
+
+}
+
+}
+
+
+@media (min-width: 550px) {
+
+.price-box-pro-mobile {
+  display: none;
+}
+
+}
