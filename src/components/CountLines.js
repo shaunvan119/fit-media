@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 
 const CountLines = () => {
     const [currentCount, setCount] = useState(0);
-    const timer = () => setCount(currentCount + 100);
+    const timer = () => setCount(currentCount + 200);
 
     useEffect(
         () => {

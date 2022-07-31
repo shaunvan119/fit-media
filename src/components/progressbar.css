@@ -1,0 +1,14 @@
+.circle-wrapper-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    
+   
+}
+
+.progesscricle {
+    margin: 20px;
+}
+
