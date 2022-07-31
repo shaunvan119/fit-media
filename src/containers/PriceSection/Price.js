@@ -8,7 +8,7 @@ function Price() {
     return (
         <div className="price-container">
             <div className="price-box">
-                <h2 className="price-header">Basic</h2>
+                <h2 className="price-header">Month to month</h2>
                 <span className="list-itmes">
                     <p>1 page design</p>
                     <p>Web design customiztion</p>
@@ -18,7 +18,7 @@ function Price() {
                 <Link to="/contactUs"><button className="price-button-basic">Contact</button></Link>
             </div>
             <div className="price-box-pro">
-                <h2 className="price-header-pro">Pro</h2>
+                <h2 className="price-header-pro">8 weeks</h2>
                 <span className="list-pro">
                     <p>Unlimited pages</p>
                     <p>Web design customiztion</p>
@@ -36,7 +36,7 @@ function Price() {
             </div>
              
             <div className="price-box-pro-mobile">
-                <h2 className="price-header-pro">Websites</h2>
+                <h2 className="price-header-pro">12 weeks</h2>
                 <span className="list-pro">
                     <p>Unlimited pages</p>
                     <p>Web design customiztion</p>

@@ -14,7 +14,7 @@ function Footer() {
            <div className="banner-container">
             <img src={footer} alt="mountains" className="banner-footer" />
             <div class="top-left">Australian trusted <br/>
-            and experienced web<br/> developers</div>
+            and experienced sales<br/>professionals</div>
             </div>  
          <div className="Bottom-footer">
          <div className="logo-icons">

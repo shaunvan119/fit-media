@@ -4,11 +4,17 @@
     justify-content: space-between;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 200px;
     
    
 }
 
 .progesscricle {
     margin: 20px;
+}
+
+.Capabilities {
+    text-align: center;
+    margin-top: 80px;
 }
 
