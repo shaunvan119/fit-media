@@ -4,14 +4,14 @@ import React, { useState, useEffect } from 'react';
 
 const CountWeb = () => {
     const [currentCount, setCount] = useState(0);
-    const timer = () => setCount(currentCount + 1);
+    const timer = () => setCount(currentCount + 1000);
 
     useEffect(
         () => {
-            if (currentCount >= 200) {
+            if (currentCount >= 700000) {
                 return;
             }
-            const id = setInterval(timer, 2);
+            const id = setInterval(timer, 0);
             return () => clearInterval(id);
         },
         
@@ -19,7 +19,7 @@ const CountWeb = () => {
 
     return (
         <div className='count-box'>
-                <h1 className="main-h1-count">Websites<br/>saved<br/></h1>
+                <h1 className="main-h1-count">Revenue<br/>Generated<br/></h1>
                 <span className='count-component'>{currentCount}</span> 
                 </div>
        

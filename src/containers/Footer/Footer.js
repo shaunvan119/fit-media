@@ -1,5 +1,6 @@
 import './footer.css'
 import banner from "../../assets/home/desktop/footerbanner.png"
+import footer from "../../assets/home/desktop/footer.png"
 import { AiFillFacebook} from 'react-icons/ai';
 import { AiFillLinkedin} from 'react-icons/ai';
 import { Link } from "react-router-dom";
@@ -11,7 +12,7 @@ function Footer() {
     return (
         <div className="footer">
            <div className="banner-container">
-            <img src={banner} alt="mountains" className="banner-footer" />
+            <img src={footer} alt="mountains" className="banner-footer" />
             <div class="top-left">Australian trusted <br/>
             and experienced web<br/> developers</div>
             </div>  

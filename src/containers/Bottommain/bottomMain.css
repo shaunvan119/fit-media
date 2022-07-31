@@ -8,6 +8,7 @@
 .bottom-main-wrapper {
     display: flex;
     justify-content: space-evenly;
+    color: #000000;
 }
 
 .bottom-h1 {

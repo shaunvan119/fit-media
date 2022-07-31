@@ -5,47 +5,45 @@ import CountLeads from '../../components/CountLeads'
 import CountLines from '../../components/CountLines'
 import computerTwo from "../../assets/home/desktop/computerTwo.png"
 import attention from "../../assets/home/desktop/attention.png"
-
+import websitetile from "../../assets/home/desktop/websitetile.png"
+import salesfunnel from "../../assets/home/desktop/salesfunnel.png"
 
 
 function TopMain() {
     
     return (
         <div className="top-wrapper">
-        <div className="top-main-container-one">
+        <div className="top-main-container-one container_count">
             <div className="top-main-one count-section"> 
-            <Count/>
             <CountLeads/>
             <CountLines/>
+            <Count/>
             </div>
-            <img src={computer} alt="computer" className="image-main graphic"/>  
+            <img src={websitetile} alt="computer" className="image-main graphic"/>  
        </div>
 
-       <div className="top-main-container-one">
-            <img src={computerTwo} alt="computer" className="image-main"/>  
+       <div className="top-main-container-one funnel-background">
+            <img src={salesfunnel} alt="computer" className="image-main"/>  
             <div className="top-main-two"> 
          
-            <h1 className="main-h1-two">Fully responsive<br/> website with<br/>purpose</h1>
-            <p className="main-p">We will design a fully responsive website that will<br/>
-            convert traffic into buyers, your website has one job,<br/>
-            generate leads. Web designers are great at making<br/>
-            things pretty but they can not build you a website<br/>
-            that can attract buyers, typically a web designer<br/>
-            doesn't have a background in the psychology of<br/>
-            a consumer's buying behavior to attract buyers.<br/>
-            Your website needs to have emotional triggers to<br/>
-            convert online traffic to hit that submit or buy button.</p>   
+            <h1 className="main-h1-two">I will build you a<br/>a qualified<br/>funnel</h1>
+            <p className="main-p">I have been working in business development<br/> based roles for the past 12 years,
+           selling complex<br/> executive level enterprise agreements within<br/> the Legal,
+           construction, Automotive, education, <br/> travel and fitness industry. 
+           I have personally generated<br/> over 7 million in sales, established
+           complex<br/> outbound sales frameworks that have
+           generated<br/>eager to buy leads.</p>   
             </div>    
        </div>
 
        <div className="top-main-container-one">
-            <div className="top-main-one"> 
-            <h1 className="main-h1">Turn website <br/>visitors into<br/>buyers</h1>
-            <p className="main-p">Get it right the first time, don't spend 30K<br/>
-                on a landing page with all the bells and whistles.<br/>
-                From the point your prospect hits your website<br/>
-                you have less than 15 seconds to attract<br/>
-                their attention.</p>   
+            <div className="top-main-one-white"> 
+            <h1 className="main-h1-two get-attention">Get attention<br/>the right<br/>way</h1>
+            <p className="main-p">Hiring the right salesperson internally can be<br/>
+                challenging, and the wrong hire can have a negative<br/>
+                impact on your brand. With over 10 years<br/> experience
+                winning meaningful conversations with<br/> decision makers,
+                I will deliver low risk, low cost<br/> transparent results.</p>   
             </div>
             <img src={attention} alt="computer" className="image-main"/>  
        </div>
