@@ -4,7 +4,7 @@ import './progressbar.css'
 
 
 const percentage = 100;
-const percentageLeadList = 95;
+const percentageLeadList = 100;
 
 function ProgressBar() {
     
@@ -61,7 +61,7 @@ function ProgressBar() {
                             })} />
          </div> 
          <div className="progesscricle">
-            <h2>Lead list<br/> creation</h2>
+            <h2>Enterprise<br/> sales</h2>
             <CircularProgressbar value={percentageLeadList} text={`${percentageLeadList}%`} styles={buildStyles({
                                 rotation: 0.25,
                                 textSize: '16px',
@@ -72,6 +72,7 @@ function ProgressBar() {
                                 backgroundColor: '#3e98c7',
                             })} />
          </div> 
+         
         
           
         </div>

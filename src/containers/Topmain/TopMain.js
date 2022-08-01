@@ -1,9 +1,7 @@
 import './topMain.css'
-import computer from '../../assets/home/desktop/computer.png'
 import Count from '../../components/CountWeb'
 import CountLeads from '../../components/CountLeads'
 import CountLines from '../../components/CountLines'
-import computerTwo from "../../assets/home/desktop/computerTwo.png"
 import attention from "../../assets/home/desktop/attention.png"
 import websitetile from "../../assets/home/desktop/websitetile.png"
 import salesfunnel from "../../assets/home/desktop/salesfunnel.png"
