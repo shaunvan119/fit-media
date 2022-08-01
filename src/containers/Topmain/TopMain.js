@@ -37,6 +37,7 @@ function TopMain() {
        </div>
 
        <div className="top-main-container-one">
+       <img src={attention} alt="computer" className="image-main"/> 
             <div className="top-main-one-white"> 
             <h1 className="main-h1-two get-attention">Get attention<br/>the right<br/>way</h1>
             <p className="main-p">Hiring the right salesperson internally can be<br/>
@@ -45,7 +46,7 @@ function TopMain() {
                 winning meaningful conversations with<br/> decision makers,
                 I will deliver low risk, low cost<br/> transparent results.</p>   
             </div>
-            <img src={attention} alt="computer" className="image-main"/>  
+            <img src={attention} alt="computer" className="image-main speaker-image"/>  
        </div>
     </div>
     )

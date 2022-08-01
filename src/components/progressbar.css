@@ -18,3 +18,19 @@
     margin-top: 80px;
 }
 
+@media  (max-width: 550px) {
+
+/*MQ header and top main*/
+
+
+
+.circle-wrapper-bar {
+  display: grid;
+  
+  margin-bottom: 1000px;
+  max-width: 200px;
+}
+
+
+
+}

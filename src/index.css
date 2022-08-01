@@ -3,6 +3,8 @@ body {
   font-family: 'DM Sans', sans-serif;
   overflow-x: hidden;
   
+  
+  
 }
 
 .contact-button {
@@ -79,6 +81,10 @@ img {
 
 /*MQ header and top main*/
 
+body {
+  width: 140%;
+}
+
 .logo {
    height: 200px;
    margin-left: -40px;
@@ -97,13 +103,18 @@ img {
 .top-main-container-one {
   display: flex;
   flex-direction: column;
-}
-
-
-.data-list, .lead-funnel {
-  display: none;
   
 }
+
+
+.speaker-image {
+  display: none;
+}
+
+.circle-wrapper-bar {
+  display: none;
+}
+
 
 /*MQ bottom section*/
 
@@ -177,7 +188,7 @@ img {
 
 @media (min-width: 550px) {
 
-.price-box-pro-mobile {
+.price-box-pro-mobile, .speaker-image {
   display: none;
 }
 
