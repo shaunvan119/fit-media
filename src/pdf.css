@@ -1,0 +1,26 @@
+
+
+
+.pdf-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 80px;
+    align-items: center;
+
+}
+
+.pdf-button {
+height: 40px;
+  width: 158px;
+  border-radius: 0px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+ margin: 30px;
+}
+
+.page {
+    height: 80%;
+}
+

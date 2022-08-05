@@ -81,7 +81,9 @@ img {
 
 /*MQ header and top main*/
 
-
+.page-desktop {
+  display: none;
+}
 
 .logo {
    height: 200px;
@@ -186,7 +188,7 @@ img {
 
 @media (min-width: 550px) {
 
-.price-box-pro-mobile, .speaker-image {
+.price-box-pro-mobile, .speaker-image, .page-mobile {
   display: none;
 }
 

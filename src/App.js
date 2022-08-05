@@ -5,6 +5,7 @@ import Price from "./containers/PriceSection/Price"
 import Footer from "./containers/Footer/Footer";
 import LeadAutomation from "./containers/LeadAutomation/LeadAutomation";
 import ContactForm from "./components/ContactForm";
+import PdfPage from "./PdfPage";
 import { Routes, Route } from "react-router-dom";
 
 
@@ -18,6 +19,7 @@ function App() {
       <LeadAutomation/>,
       <BottomMain/>,
       <Price/>,
+      <PdfPage/>,
       <Footer/>,]}/> 
         <Route path="/contactUs" element={<ContactForm/>}/>
       </Routes>

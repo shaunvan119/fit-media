@@ -10,7 +10,7 @@ import { CgWebsite } from 'react-icons/cg';
 import { MdOutlineDesignServices } from 'react-icons/md';
 import { TbSettingsAutomation } from 'react-icons/tb';
 import background from "../../assets/home/desktop/background.png"
-import ProgressBar from '../../components/ProgressBar'
+import ProgressBar from '../../ProgressBar'
 
 
 
