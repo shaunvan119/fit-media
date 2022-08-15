@@ -81,6 +81,11 @@ img {
 
 /*MQ header and top main*/
 
+
+.main-h1-two {
+  font-size: 2px;
+}
+
 .page-desktop {
   display: none;
 }
@@ -125,7 +130,7 @@ img {
     align-items: center;
 }
 
-.website-rep, .conversion, .hosting, .design, .lead-auto  {
+.website-rep, .conversion, .hosting, .design, .lead-auto {
   display: none;
 }
 
@@ -162,7 +167,7 @@ img {
   text-align: center;
 }
 
-.banner-footer, .top-left {
+.banner-footer, .top-left, .desktop-h1 {
   display: none;
 
 }
@@ -188,8 +193,9 @@ img {
 
 @media (min-width: 550px) {
 
-.price-box-pro-mobile, .speaker-image, .page-mobile {
+.price-box-pro-mobile, .speaker-image, .page-mobile, .mobile-main-h1, .main-p-mobile, .bottom-p-mobile {
   display: none;
 }
 
 }
+

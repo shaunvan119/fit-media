@@ -38,7 +38,7 @@ function PdfPage() {
 				onLoadSuccess={onDocumentLoadSuccess}
 			>
 				<Page wrap={false} pageNumber={pageNumber} className="page-desktop" />
-        <Page height="600" wrap={false} pageNumber={pageNumber} className="page-mobile" />
+        <Page height="450" wrap={false} pageNumber={pageNumber} className="page-mobile" />
         
 			</Document>
 		</div>

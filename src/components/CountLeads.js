@@ -18,7 +18,7 @@ const CountLeads = () => {
     );
 
     return (
-        <div className='count-box'>
+        <div className='count-box lead-box'>
                 <h1 className="main-h1-count">Leads<br/>Generated<br/></h1>
                 <span className='count-component'>{currentCount}</span> 
                 </div>

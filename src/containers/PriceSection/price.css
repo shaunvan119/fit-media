@@ -129,3 +129,13 @@
 .description__p {
     color: #FFFFFF;
 }
+
+@media  (max-width: 550px) {
+
+
+
+.price-box-pro-mobile {
+ max-width: 300px;
+}
+
+}

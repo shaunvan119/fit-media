@@ -81,6 +81,7 @@
 .main-h1-two {
     color: #000000;
     font-size: 40px;
+    text-align: center;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 4.166666507720947px;  
@@ -93,6 +94,51 @@
     line-height: 25px;
     letter-spacing: 0px;
     color: #b5b2b2;
+    text-align: center;
+}
+
+
+
+@media  (max-width: 550px) {
+
+
+
+.top-main-two {
+    text-align: center;
+}
+
+
+.image-main{ 
+    height: 400px;
+}
+
+.get-attention {
+    margin-left: 5px; 
+}
+
+.top-main-one {
+    height: 800px;
+}
+
+.main-p {
+    display: none;
+}
+
+.main-p-mobile {
+    margin-left: 5px;
+    margin-right:5px ;
+    color: #b5b2b2;
+}
+
+
+
+.container_count {
+    height: 550px;
+}
+
+
+
+
 }
 
 

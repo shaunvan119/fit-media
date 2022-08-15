@@ -48,4 +48,19 @@
     margin-top: 70px;
 }
 
+@media  (max-width: 550px) {
+
+
+
+.sales-machine {
+  display: none;
+}
+
+.logo-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
 

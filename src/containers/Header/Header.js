@@ -7,7 +7,7 @@ function Header() {
     return (
         <header className="top-header">
             <img src={logo} alt="Logo" className="logo" />
-            <Link to="/contactUs"><button className="contact-button button-contact-form">Contact</button></Link>
+            <Link to="/contactUs"><button className="contact-button button-contact-form button-header">Contact</button></Link>
             
               
         </header>
